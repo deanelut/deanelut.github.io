@@ -82,6 +82,7 @@ var Typer={
 			this.write("|"); // else write it
 	}
 }
+ 
 function replaceUrls(text) {
 	var http = text.indexOf("http://");
 	var space = text.indexOf(".me ", http);
@@ -97,7 +98,7 @@ function replaceUrls(text) {
 }
 
 Typer.speed=3;
-Typer.file="[your-name].txt"; // add your own name here
+Typer.file="CodeNerve.txt";
 Typer.init();
  
 var timer = setInterval("t();", 30);
@@ -108,3 +109,4 @@ function t() {
 		clearInterval(timer);
 	}
 }
+ 
