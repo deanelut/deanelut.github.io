@@ -1,2 +1,2 @@
 
-Hey There! This is the website in the skin of a terminal would look like.</p>
+GitHub Website with a Terminal theme.</p>
